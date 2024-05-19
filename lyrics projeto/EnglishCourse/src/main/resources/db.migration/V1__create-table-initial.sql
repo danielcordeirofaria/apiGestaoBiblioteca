@@ -121,4 +121,3 @@ CREATE EVENT IF NOT EXISTS PreencherSemanasProximoAno
     DO CALL PreencherSemanasDoAno(YEAR(CURDATE()) + 1);
 
 CALL PreencherSemanasDoAno(2024);
-
